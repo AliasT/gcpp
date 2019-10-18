@@ -2,5 +2,11 @@
   "name": "gcpp",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "gcpp": "./gcpp"
+  },
+  "dependencies": {
+    "@types/node": "^12.11.1"
+  }
 }
