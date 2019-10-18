@@ -1,10 +1,10 @@
 {
   "name": "gcpp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "gcpp": "./gcpp"
+    "gcpp": "./gcpp.js"
   },
   "dependencies": {
     "@types/node": "^12.11.1"
