@@ -8,4 +8,4 @@ const message = argv.length > 0 ? argv.join(" ") : "updates"
 execSync("git add .", { stdio: "inherit" })
 execSync("git commit -m '" + message + "'", { stdio: "inherit" })
 execSync("git pull --rebase", { stdio: "inherit" })
-execSync("git push", { stdio: "inherit" })
+execSync("git push --quiet", { stdio: "inherit" })
